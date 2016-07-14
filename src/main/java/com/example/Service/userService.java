@@ -1,4 +1,4 @@
-package com.example.Services;
+package com.example.Service;
 
 import com.example.Domain.User;
 import com.example.Resources.UserRepository;
