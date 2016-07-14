@@ -1,7 +1,7 @@
-package com.example.Service;
+package com.example.service;
 
-import com.example.Domain.User;
-import com.example.Resources.UserRepository;
+import com.example.domain.User;
+import com.example.resources.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,7 @@ import java.util.Collection;
  * Created by bugrahansahin on 14/07/16.
  */
 @Service
-public class Services {
+public class UserService {
     @Autowired
     UserRepository userRepository;
     public Collection<User> allUsers() {

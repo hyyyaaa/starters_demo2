@@ -1,9 +1,8 @@
-package com.example.Domain;
+package com.example.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.lang.reflect.Method;
 
 /**
  * Created by bugrahansahin on 14/07/16.

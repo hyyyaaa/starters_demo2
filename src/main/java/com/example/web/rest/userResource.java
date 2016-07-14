@@ -12,7 +12,7 @@ import java.util.Collection;
  */
 @RequestMapping("/api")
 @RestController
-public class userResource {
+public class UserResource {
     @Autowired
     UserService userService;
     @RequestMapping("/test")

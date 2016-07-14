@@ -1,11 +1,10 @@
-package com.example.Resources;
+package com.example.resources;
 
 /**
  * Created by bugrahansahin on 14/07/16.
  */
 
-import com.example.Domain.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Collection;
